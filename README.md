@@ -45,4 +45,4 @@ service filebeat restart
 
 This module comes with a sample dashboard. For example:
 
-![Imgur](https://imgur.com/YXoWdq9.png)
+![Imgur](https://imgur.com/uevMFOd.png)
