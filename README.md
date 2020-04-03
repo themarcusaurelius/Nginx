@@ -7,6 +7,11 @@ When you run this module, it performs a few tasks under the hood:
 - Uses ingest node to parse and process the log lines, shaping the data into a structure suitable for visualizing in Kibana
 - Deploys dashboards for visualizing the log data
 
+### Compatibility
+The Nginx module was tested with logs from version 1.10.
+
+On Windows, the module was tested with Nginx installed from the Chocolatey repository.
+
 ### Installation
 
 ### Linux:
@@ -16,7 +21,7 @@ When you run this module, it performs a few tasks under the hood:
 1. Enter the following script into the console using elevated privileges
 
 ```
-curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scripts/install-config-nginx.sh > install-config-mginx.sh; chmod a+x  install-config-nginx.sh; ./install-config-nginx.sh _PLACEHOLDER_API_ENDPOINT_
+curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scripts/install-config-nginx.sh > install-config-nginx.sh; chmod a+x  install-config-nginx.sh; ./install-config-nginx.sh _PLACEHOLDER_API_ENDPOINT_
 ```
 
 2. When prompted, select the proper environment to complete the installation.
@@ -28,7 +33,7 @@ curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scr
 1. Enable the module.
 
 ```
-filebeat modules enable apache2
+filebeat modules enable nginx
 ```
 
 2. Restart Filebeat.
