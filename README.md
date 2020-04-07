@@ -112,6 +112,7 @@ restart-service filebeat
 
 <hr>
 
+<br> 
 
 ## Example Dashboard
 
