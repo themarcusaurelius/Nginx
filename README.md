@@ -12,7 +12,7 @@ The Nginx module was tested with logs from version 1.10.
 
 On Windows, the module was tested with Nginx installed from the Chocolatey repository.
 
-### Installation
+## Installation
 
 ### Linux:
 
@@ -26,7 +26,11 @@ curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scr
 
 2. When prompted, select the proper environment to complete the installation.
 
+<br>
+
 **Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
+
+<br>
 
 <i>If you have already installed filebeat...</i>
 
@@ -42,9 +46,13 @@ filebeat modules enable nginx
 service filebeat restart
 ```
 
+<br>
+
 **Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
 
 <hr>
+
+<br>
 
 ### Windows
 
